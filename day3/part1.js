@@ -1,6 +1,6 @@
 const fs = require('fs');
 const read = fs.readFileSync('input.txt');
-let slopeMap = read.toString().split('\r\n').map((line) => line.split(''));
+const slopeMap = read.toString().split('\r\n').map((line) => line.split(''));
 
 let x = 3;
 let numOfTrees = 0;

@@ -14,5 +14,4 @@ const validPasswords = passwords.filter((pass) => {
   return validPass;
 });
 
-//458
 console.log('Number of valid passwords: '+ validPasswords.length);
